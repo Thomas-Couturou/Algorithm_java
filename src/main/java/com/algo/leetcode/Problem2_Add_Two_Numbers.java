@@ -1,5 +1,7 @@
 package com.algo.leetcode;
 
+import com.algo.utils.ListNode;
+
 public class Problem2_Add_Two_Numbers {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         return addTwoNumbersRecursive(l1, l2, 0);
@@ -32,12 +34,4 @@ public class Problem2_Add_Two_Numbers {
             return result;
         }
     }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }

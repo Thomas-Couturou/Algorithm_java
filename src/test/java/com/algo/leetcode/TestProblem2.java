@@ -1,5 +1,6 @@
 package com.algo.leetcode;
 
+import com.algo.utils.ListNode;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
